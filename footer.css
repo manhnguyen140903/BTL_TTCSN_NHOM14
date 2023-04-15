@@ -1,0 +1,73 @@
+footer{
+    float: left;
+    width: 100%;
+    background-color: black;
+    min-height: 150px;
+}
+.row{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.boxcenter2{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.boxfooter1{
+  
+    width: 23%;
+    float: left;
+    margin-right: 2%;
+}
+.boxfooter2{
+    width: 23%;
+    float: left;
+    margin-right: 2%;
+}
+.boxfooter3{
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+}
+.textcenter{
+    text-align: center;
+}
+.colorc{
+    color: white;
+}
+.mrb10{
+    margin-bottom: 10px;
+}
+.add1{
+    color: rgb(248, 72, 81);
+}
+.add2{
+    color: rgb(252, 119, 119)
+}
+.add{
+    color: rgb(250, 182, 161);
+}
+.sdt{
+    color: rgb(247, 206, 187);
+}
+footer a{
+    text-decoration: none;
+ 
+    color: white;
+}
+footer a:hover{
+    color: rgb(252, 122, 122);
+    text-decoration: underline;
+}
+.icon{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.icon2{
+    font-size: 14px;
+    margin-right: 3px;
+}
+.icon3{
+    margin-right: 5px;
+}

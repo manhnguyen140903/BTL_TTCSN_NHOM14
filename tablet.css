@@ -1,0 +1,471 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 120px;
+    background-color: #f74346;
+}
+
+nav{
+    background-color: black;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+menu{
+    background-color: #f56063;
+    height: 40px;
+    line-height: 40px;
+}
+
+menu ul{
+    display: flex;
+    list-style: none;
+}
+menu ul li{
+    margin: auto;
+}
+menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+menu ul li a:hover{
+    color: whitesmoke;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: auto;
+}
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+nav ul li{
+    color: white;
+}
+
+/*address form*/
+
+.address-form{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    top:0;
+    left: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: none;
+}
+.diachi:hover .address-form{
+    display: inline;
+    padding: 200px 300px;
+}
+.address-from-content{
+    width: 400px;
+    height: 450px;
+    background-color:white ;
+    border-radius: 5px;
+}
+.address-form-content form{
+    padding: 0px 40px;
+}
+.address-form-content h4{
+    font-size: 14px;
+    padding:12px 0px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+/*
+.address-from-content h4 span{
+    display: block;
+    position: absolute;
+    height: 30px;
+    padding: 0px 6px;
+    right: 12px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 30px;
+    color: #333;
+    border-radius: 5px;
+}
+*/
+.address-form-content form p{
+    font-size: 16px;
+
+}
+.select{
+    height: 45px;
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+    margin-left:10px;
+    border: 1px solid 1px;
+    padding: 6px;
+    border-radius: 5px;
+}
+.nha{
+    margin-left: 10px;
+    height: 45px;
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+    border: 1px solid 1px;
+    padding: 6px;
+    border-radius: 5px;
+}
+.xacnhan{
+    margin-top: 20px;
+    height: 40px;
+    width: 80%;
+    background-color: #f97e0e;
+    cursor: pointer;
+    outline:  none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/*hộp tìm kiếm*/
+.box{
+    margin: auto;
+    width:fit-content;
+    height: fit-content;
+}
+
+.container{
+    width: 200px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }
+  .container input#search{
+    width: 200px;
+    height: 30px;
+    background: white;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #262626;
+    padding-left: 37px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: black;
+  }
+  .container input#search::-webkit-input-placeholder {
+    color: #65737e;
+ }
+ .container input#search:-ms-input-placeholder {  
+    color: #65737e;  
+ }
+ .container .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 9px;
+    margin-top: -4px;
+    z-index: 1;
+    color: #4f5b66;
+     -webkit-transition: all .55s ease;
+    -moz-transition: all .55s ease;
+    -ms-transition: all .55s ease;
+    -o-transition: all .55s ease;
+    transition: all .55s ease;
+  }
+  .container input#search:focus, .container input#search:active{
+    outline:none; 
+}
+.container:hover .icon{
+    margin-left: 9px;
+    margin-top: -4px;
+    color: black;
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    transform:scale(1.25);
+  }
+  /* giỏ hàng */
+  #cart {
+    height: 30px;
+    width: 85px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  /*----slider-----*/
+li {
+    list-style: none;
+}
+.slider{
+    margin-left: 35px;
+    width: 95%;
+    padding: 20px 0px;
+    height: 200px;
+}
+.slider-content{
+    display: flex;
+    justify-content: space-around;
+}
+.slider-content-left{
+    width: 65%;
+}
+.slider-content-left-top{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.slider-content-left-top img{
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+.slider-content-right{
+    width: 35%;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+    justify-content: space-between;
+}
+.slider-content-right li{
+
+    text-align: center;
+    margin-bottom: 3px;
+}
+.slider-content-right img{
+    width: 100%;
+    height: 100px;
+}
+
+
+
+/*------them----*/
+
+.slider-content-left-top-btn{
+    position: absolute;
+    top: 48%;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left:5px;
+
+}
+
+.slider-content-left-top-btn i{
+    color: #333; 
+    font-size: 32px;
+    height: 50px;
+    width: 30px;
+    background-color: #ddd;
+    justify-content: center;
+    align-items: center;
+    transform:translateY(-50%) ;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.slider-content-left-top:hover .slider-content-left-top-btn i{
+    opacity: 1;
+}
+
+.slider-content-left-top a:nth-child(2) img{
+    transform: translateX(100%);
+}
+.slider-content-left-top a:nth-child(3) img{
+    transform: translateX(200%);
+}
+.slider-content-left-top a:nth-child(4) img{
+    transform: translateX(300%);
+}
+.slider-content-left-top a:nth-child(5) img{
+    transform: translateX(400%);
+}
+.hang{
+    margin-left: 35px;
+    margin-top: 60px;
+    width: 95%;
+    height: 60px;
+}
+.hang img{
+    height: 35px;
+    width: 120px;
+    border:1px solid rgb(173, 166, 166);
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius:60px ;
+    border-top-right-radius: 60px;
+}
+.infor{
+    margin-left: 35px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+.infor a{
+    text-align: center;
+    height: 35px;
+    text-decoration: none;
+}
+.infor p{
+    padding-top: 5px;
+    text-align: center;
+    height: 35px;
+    width: 120px;
+    color: black;
+    text-decoration: none;
+    border:1px solid rgb(172, 167, 167);
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius:70px ;
+    border-top-right-radius: 70px;
+}
+.infor a:hover p{
+    color:#fa3438;
+    border:1px solid#fa3438;
+
+}
+.hang a:hover img {
+    border:1px solid #fa3438 ;
+    
+} 
+/*------------section---------*/
+section{
+    margin-left: 35px;
+
+    margin-top: 50px;
+    width: 95%;
+    padding-top: 20px;
+}
+.cot{
+    align-items: center;
+    text-align: center;
+    border-style:solid;
+    border-width: 0.5px;
+    height: 300px;
+    border-color: #65737e;
+    width: 20%;
+}
+p {
+    margin-left: 38px;
+    width: 170px;
+    text-align: center;
+}
+.sb {
+    display: flex;
+    
+}
+.chu{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.anh img {
+    margin-top: 20px;
+    width: 100%; 
+    height: 100%;  
+    transition-duration: 0.5s;
+    /* Safari & Google Chrome */
+    -webkit-transition-duration: 0.5s; 
+        
+}
+         
+/* Hover chuột vào thumbnail */
+.anh img:hover {
+    transform: scale(1.2);
+        /* Safari & Google Chrome */
+    -webkit-transform: scale(1.2);
+    cursor: pointer; 
+}
+.ten:hover {
+    color: red;
+}
+/*----- footer-----*/
+footer{
+    float: left;
+    width: 100%;
+    background-color: black;
+    min-height: 150px;
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.row{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.boxcenter2{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.boxfooter1{
+  
+    width: 23%;
+    float: left;
+    margin-right: 2%;
+}
+.boxfooter2{
+    width: 23%;
+    float: left;
+    margin-right: 2%;
+}
+.boxfooter3{
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+}
+.textcenter{
+    text-align: center;
+}
+.colorc{
+    color: white;
+}
+.mrb10{
+    margin-bottom: 10px;
+}
+.add1{
+    color: rgb(248, 72, 81);
+}
+.add2{
+    color: rgb(252, 119, 119)
+}
+.add{
+    color: rgb(250, 182, 161);
+}
+.sdt{
+    color: rgb(247, 206, 187);
+}
+footer a{
+    text-decoration: none;
+ 
+    color: white;
+}
+footer a:hover{
+    color: rgb(252, 122, 122);
+    text-decoration: underline;
+}
+.icon{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.icon2{
+    font-size: 14px;
+    margin-right: 3px;
+}
+.icon3{
+    margin-right: 5px;
+}
