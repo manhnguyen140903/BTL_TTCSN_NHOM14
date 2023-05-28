@@ -3,11 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 .header{
     height: 120px;
     background-color: #f5adae;
 }
+
 
 nav{
     background-color: black;
@@ -85,21 +85,7 @@ nav ul li{
     border-bottom: 1px solid #ddd;
     position: relative;
 }
-/*
-.address-from-content h4 span{
-    display: block;
-    position: absolute;
-    height: 30px;
-    padding: 0px 6px;
-    right: 12px;
-    cursor: pointer;
-    top: 50%;
-    transform: translateY(-50%);
-    line-height: 30px;
-    color: #333;
-    border-radius: 5px;
-}
-*/
+
 .address-form-content form p{
     font-size: 16px;
 
@@ -182,8 +168,8 @@ nav ul li{
     -ms-transition: all .55s ease;
     -o-transition: all .55s ease;
     transition: all .55s ease;
-  }
-  .container input#search:focus, .container input#search:active{
+}
+.container input#search:focus, .container input#search:active{
     outline:none; 
 }
 .container:hover .icon{
@@ -192,88 +178,125 @@ nav ul li{
     color: black;
     -webkit-transform:scale(1.25); /* Safari and Chrome */
     transform:scale(1.25);
-  }
+}
   /* giỏ hàng */
-  #cart {
+#cart {
     height: 30px;
     width: 85px;
     font-family: 'Times New Roman', Times, serif;
   }
-/* san pham */
-section {
-    margin-top: 30px;
-    margin-left: 50px;
-}
-.st {
-    display: flex;
-}
-/*.str {
-    display: flex;
-    margin-left: 590px;
-}*/
-body .st {
-    width: 100%;
-    height: 100px;
-    margin-left: -30px;
-    padding-left: 55px;
-}
-body {
-    background-color: #f2f1eb;
-    width: 100%;
-}
-#s1 {
-    border: 1px solid rgb(82, 147, 204);
-    height: 25px;
-}
-.stl {
-    color: black;
-    height: 50px;
-    width:100%;
-    padding-top: -15px;
+  
+.tren {
+    width: 49%; 
+    line-height: 50px;
     display: inline-flex;
     justify-content:space-between;
-}
-#logop{
-    display: inline-flex;
-    justify-content: space-around;
     margin-top: 20px;
-    border:1px solid rgb(82, 147, 204);
+    margin-left: 60px;
+  
 }
-.cot1 {
-    position: relative;
-    top:auto;
-    display: flex;
-    justify-content: space-around;
-   
+.gt {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
-p {
-    width: 170px;
-    text-align: center;
-}
-.sb {
-    margin-top: 50px;
-    
+  
+#detail {
+    margin-top: 40px;
+    margin-left: 70px;
+    width: 560px; 
+    height: 370px;
 }
 
-.anh img {
-    width: 100%; 
-    height: 100%;  
-    transition-duration: 0.5s;
-    /* Safari & Google Chrome */
-    -webkit-transition-duration: 0.5s; 
-        
+.infor {
+    margin-top: 120px;
+    margin-left: 70px;
+    width: 50%;
 }
-         
-/* Hover chuột vào thumbnail */
-.anh img:hover {
-    transform: scale(1.2);
-        /* Safari & Google Chrome */
-    -webkit-transform: scale(1.2);
-    cursor: pointer; 
+#tt {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.ten:hover {
-    color: red;
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: justify;
 }
-#slider{
-    align-items: center;
+.ghep {
+    display: flex;
+    justify-content: ;
+}
+
+.phai {
+    margin-left:-500px;
+}
+
+.s20blue {
+    margin-top: 40px;
+}
+#nut1 {
+    height: 30px;
+    width: 90px;
+    border: 0.5px solid rgb(151, 145, 145);
+    border-radius: 3px;
+    font-family:Arial, Helvetica, sans-serif
+}
+#nut2 {
+    height: 40px;
+    width: 225px;
+    border: 0.5px solid rgb(203, 20, 20);
+    border-radius: 5px;
+    color: white;
+    background-color:  rgb(203, 20, 20);
+    font-family:Arial, Helvetica, sans-serif
+}
+#nut3 {
+    height: 40px;
+    width: 225px;
+    border: 0.5px solid rgb(41, 133, 224);
+    border-radius: 5px;
+    color: white;
+    background-color:  rgb(41, 133, 224);
+    font-family:Arial, Helvetica, sans-serif
+}
+.cauhinh {
+   
+}
+#deal {
+    border-collapse: collapse;
+    background-color:rgb(253, 242, 243) ; ;
+    border: rgb(253, 242, 243) ;
+    margin-right: 14px;
+}
+#deal td {
+    height: 30px;
+    text-align: left;
+
+    border: white;
+}
+#cfg {
+    border-collapse: collapse;
+    background-color:white ;
+    margin-left: 40px;
+    border: white;
+    font-family:  Calibri light;
+    font-size: 15px;
+    
+}
+#cfg td {
+    height: 30px;
+    text-align: left;
+    padding-left: 8px;
+    border: white;
+}
+#cfg tr {
+    
+    text-align: left;
+}
+.mauNgia {
+    width:500px;
+    height: 350px;
+    border: 1px solid rgb(203, 20, 20);
+    padding-left: 20px;
+    margin-right: 50px;
 }
